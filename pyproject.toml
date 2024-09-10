@@ -1,0 +1,9 @@
+[project]
+name = "rootcode-datathon"
+version = "0.1.0"
+description = "Rootcode Datathon - 2024 - CodeRecon"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "ipykernel>=6.29.5",
+]
