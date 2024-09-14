@@ -1919,6 +1919,39 @@ wheels = [
 ]
 
 [[package]]
+name = "river"
+version = "0.21.2"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "numpy" },
+    { name = "pandas" },
+    { name = "scipy" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/62/ca/c498394cb9daef16028c20c1df70df884e6cb68556828a191e5df44e1347/river-0.21.2.tar.gz", hash = "sha256:359d5e9b267b07e025f0dee1e2621c6fa587a73152054387a506877e2d8f68be", size = 1292231 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/64/e3/86a966ffbd231d539cfe80f9e865b76a09f6300a02693fd6fa7fd29c6da7/river-0.21.2-cp311-cp311-macosx_12_0_universal2.whl", hash = "sha256:468c50c7e335d75883868c7c89ebe6e456734e4c8f11b8f5bcdd09942255e600", size = 2548535 },
+    { url = "https://files.pythonhosted.org/packages/c9/f5/beb36f7dcada4fc374164c251879dde43fa4482c2beeec245692aa66d60d/river-0.21.2-cp311-cp311-macosx_13_0_universal2.whl", hash = "sha256:181dcb00b70010ed490def6ddb8190ee49aa522145af74f223f8aef174db05ee", size = 2557125 },
+    { url = "https://files.pythonhosted.org/packages/c1/57/4963d0d95bc86725d1d5e78ae6958deb1a035c5a05e342518d4b52886d6a/river-0.21.2-cp311-cp311-macosx_14_0_arm64.whl", hash = "sha256:081ffb19c77636b5a9b4ccc7240350277a6977539220d8f9747affba27051f2e", size = 2556900 },
+    { url = "https://files.pythonhosted.org/packages/5a/74/3256dc30c288812f477b16183beca7453b9c45354305b39fdf9fd22c9d5c/river-0.21.2-cp311-cp311-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:497218d0825db80f76d824e7e610d5422f4ac7bc50a57f422010510565e97f93", size = 3276063 },
+    { url = "https://files.pythonhosted.org/packages/c3/bc/99866e54dbbe81d20e90cbc0e8f6552e0eb38b4a6bd1b836b3843f1962bd/river-0.21.2-cp311-cp311-manylinux_2_17_i686.manylinux_2_5_i686.manylinux1_i686.manylinux2014_i686.whl", hash = "sha256:ce2261820c86be073227e140056889aa565591e7e168497efbb9f5249d3098ab", size = 3227230 },
+    { url = "https://files.pythonhosted.org/packages/b7/f8/781d97746e43dbb575d6c294cbd504f58a4dfa3c466be94fa4bb58c198a0/river-0.21.2-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:18973b1f0e98649b16813fffc83a6d4ec50be7fda48a719e91140c2b442d2fdf", size = 3283155 },
+    { url = "https://files.pythonhosted.org/packages/df/7a/48fa2d033018cc31362808226bbea421af0dbd13771924adef33d41f13bd/river-0.21.2-cp311-cp311-musllinux_1_1_aarch64.whl", hash = "sha256:aece3557c42630a0a8fcc1803e9203fd750af1c50c9b65a66d09e49c28754ad0", size = 3801660 },
+    { url = "https://files.pythonhosted.org/packages/8a/6c/e2f896bf440ce9249e04ac870177c239eb2513e6b60e076420318c0fd7b8/river-0.21.2-cp311-cp311-musllinux_1_1_x86_64.whl", hash = "sha256:518058b29549eb389b81c305ebac3f09d7757ee6f2bf7cd0fe4800c6849ad1d6", size = 3817785 },
+    { url = "https://files.pythonhosted.org/packages/24/a1/10f413227596ab2be3206bd23ef684d3e3052b6b03c9800cd39ad516a0f6/river-0.21.2-cp311-cp311-win32.whl", hash = "sha256:dc404852d2f3cd40107d0c785d82a839f37f3c862c410a1966f50b1ce144d5f5", size = 2038002 },
+    { url = "https://files.pythonhosted.org/packages/6b/fa/7aa59ea91ef454f7480ae2d1fb653c7cf6dccee6c3ed2868a57189e7f0f1/river-0.21.2-cp311-cp311-win_amd64.whl", hash = "sha256:81517c851b7110bcbe378a219426d8d41a142c8cbf626abb54d72bebec5aefca", size = 2144593 },
+    { url = "https://files.pythonhosted.org/packages/ed/9e/4ab2fdf30e8f01ab6c557681e143be229ceaba7bc65e9af49f32b8fe9605/river-0.21.2-cp312-cp312-macosx_12_0_universal2.whl", hash = "sha256:f1fdd69e36125485f203d47fd42e12a86b3dd9727ddeb7fbe0e7bab030202460", size = 2621503 },
+    { url = "https://files.pythonhosted.org/packages/44/1a/671d7bc1fd8747b5ca76b24184e76e326c97e3144cf71da7aa9249efcd22/river-0.21.2-cp312-cp312-macosx_13_0_universal2.whl", hash = "sha256:8b40c62312f3bbf0201d9df78f935fe72107482791f198628bc337c116e6cbd4", size = 2627960 },
+    { url = "https://files.pythonhosted.org/packages/38/79/29b363d1bb8aa42ee0cbcda1a9ce118beeff3d1dbc64175f870a823afa31/river-0.21.2-cp312-cp312-macosx_14_0_arm64.whl", hash = "sha256:284d43fd758c3662dbf9f8fb255457a36a29d5916dab452c36f9a0a73e74b2f6", size = 2627884 },
+    { url = "https://files.pythonhosted.org/packages/3a/26/12bc774af04b4831e08bffcdd6c5b4e0678ac5730e2f254cf452e6818a0a/river-0.21.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:72a3dd3533e558a7592389a20d0579dc8e2a84624b40e9fdfedf852aca60ad9c", size = 3335000 },
+    { url = "https://files.pythonhosted.org/packages/05/fd/09f8be21fa0db26d7de4c4020cfcb5e92fb11f325130a7d58ef817cc5c98/river-0.21.2-cp312-cp312-manylinux_2_17_i686.manylinux_2_5_i686.manylinux1_i686.manylinux2014_i686.whl", hash = "sha256:49b7320f828d7bc5db9ffe4c61df465e563c9200a106a3c27511674247d4d660", size = 3279841 },
+    { url = "https://files.pythonhosted.org/packages/9b/ca/08b9564e8c0f3822e25e1dc68a9d38b7bad8ccf3c71bf925820feca3df45/river-0.21.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:e7edabc2b7ae20d252379105cd4c104bc30d5c20a062ee1b24fb80a3e6810d48", size = 3351916 },
+    { url = "https://files.pythonhosted.org/packages/64/59/1245c4d3cfefaccc5f60bfd44227dc09e2da10052aa3e5c53c63e389e570/river-0.21.2-cp312-cp312-musllinux_1_1_aarch64.whl", hash = "sha256:7ee808bac1ef590160764afceef80717d9d012a74c44bcc532cf92b3393a7a61", size = 3851882 },
+    { url = "https://files.pythonhosted.org/packages/15/5b/3f6f915db3b8469847d1958f68bde5ff9e8ee12d4722bb972ff94d9abc12/river-0.21.2-cp312-cp312-musllinux_1_1_x86_64.whl", hash = "sha256:f4055768cc327239631709d47fefea0baeff810f43aef2c2c9a7d2f8b6025ad0", size = 3882461 },
+    { url = "https://files.pythonhosted.org/packages/84/99/9b5732026342dd87251c9d62802e69fef3f5d446d726fe5c3646ce58a25c/river-0.21.2-cp312-cp312-win32.whl", hash = "sha256:ca2b85d06d82048c96d789be0b2da86f8f3bda80014a08a8cdb984d783bfc01b", size = 2181354 },
+    { url = "https://files.pythonhosted.org/packages/0b/8d/128884221c231f993e9c991ddbf7df751fb72439963eb9d86b2eec818896/river-0.21.2-cp312-cp312-win_amd64.whl", hash = "sha256:7851e20f722b66896a7cdd0aec3e8620c3556501f0b377c2879f49d9e65bffa6", size = 2288330 },
+]
+
+[[package]]
 name = "rootcode-datathon"
 version = "0.1.0"
 source = { virtual = "." }
@@ -1936,6 +1969,7 @@ dependencies = [
     { name = "openpyxl" },
     { name = "pandas" },
     { name = "pydantic" },
+    { name = "river" },
     { name = "scikit-learn" },
     { name = "seaborn" },
     { name = "sentence-transformers" },
@@ -1962,6 +1996,7 @@ requires-dist = [
     { name = "openpyxl", specifier = ">=3.1.5" },
     { name = "pandas", specifier = ">=2.2.2" },
     { name = "pydantic", specifier = ">=2.9.1" },
+    { name = "river", specifier = ">=0.21.2" },
     { name = "scikit-learn", specifier = ">=1.5.2" },
     { name = "seaborn", specifier = ">=0.13.2" },
     { name = "sentence-transformers", specifier = ">=3.1.0" },
