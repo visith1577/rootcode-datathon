@@ -1,1 +1,0 @@
-### Reports made during competition
